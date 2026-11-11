@@ -11,7 +11,7 @@
 Трёхуровневая схема «узлы — шлюз — сервер»:
 
 ```
-[Узлы ESP32] --ESP-NOW--> [Шлюз ESP32-S3] --Wi-Fi/Ethernet--> [Сервер]
+[Узлы ESP32] --ESP-NOW--> [Шлюз ESP32-S3] --Ethernet--> [Сервер]
                                                                 ├─ Home Assistant
                                                                 ├─ Mosquitto (MQTT)
                                                                 ├─ InfluxDB
